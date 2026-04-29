@@ -4,6 +4,24 @@ LICENSE and CODE are available at [https://github.com/ZL-Audio/ZLEqualizer](http
 
 # Changelog
 
+## 1.1.1
+
+Bug fixes
+
+- fix grammar mistakes in tooltips
+- fix external side-chain configuration for Maschine
+
+Improvements
+
+- improve dynamic EQ efficiency
+- improve GUI performance
+
+Other Changes
+
+- add LV2 tags
+- adjust some pop-up panel background
+- change to Windows MSI installer
+
 ## 1.1.0
 
 BREAKING CHANGES

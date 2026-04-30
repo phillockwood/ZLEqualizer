@@ -169,10 +169,12 @@ namespace zlpanel {
             lookahead_slider_.setBounds(t_bound.removeFromRight(t_bound.getWidth() / 3));
             t_bound.removeFromRight(padding);
             lookahead_label_.setBounds(t_bound);
-
-            const auto dragging_distance = getSliderDraggingDistance(font_size);
-            lookahead_slider_.setMouseDragSensitivity(dragging_distance);
         }
+
+        const auto dragging_distance = getSliderDraggingDistance(font_size);
+        gain_slider_.setMouseDragSensitivity(dragging_distance);
+        scale_slider_.setMouseDragSensitivity(dragging_distance);
+        lookahead_slider_.setMouseDragSensitivity(dragging_distance);
     }
 
     void OutputPanel::repaintCallBackSlow() {
